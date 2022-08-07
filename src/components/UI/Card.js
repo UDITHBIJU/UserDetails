@@ -5,7 +5,7 @@ function Card(props) {
     
   return (
     
-    <div className={classes.card}>{props.childern}</div>
+    <div className={`${classes.card} ${props.className} `}>{props.children}</div>
   )
 }
 
